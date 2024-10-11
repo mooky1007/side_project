@@ -17,7 +17,7 @@ html {
   width: 100%;
   height: 100vh;
   body {
-    width: 90%;
+    width: 100%;
     height: 100svh;
     height: 100vh;
     background: #222;
@@ -35,7 +35,7 @@ html {
       justify-content: flex-start;
       align-items: center;
 
-      padding-top: calc(56px + 50px);
+      padding-top: calc(56px + 10vmin);
 
       .title_container {
         position: absolute;
@@ -43,7 +43,6 @@ html {
         left: 0;
         width: 100%;
         height: 56px;
-        margin-bottom: 30px;
         display: flex;
         align-items: center;
 
@@ -89,7 +88,7 @@ html {
       }
 
       .emotion_container {
-        width: 100%;
+        width: 90%;
         font-size: 36px;
 
         .emotion_title {
@@ -142,8 +141,8 @@ html {
       }
 
       .input_container {
+        width: 90%;
         margin-top: 20px;
-        width: 100%;
 
         .content {
           display: flex;
