@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily App</title>
+  <link rel="stylesheet" href="./dist/app.css">
+  <script src="./dist/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="title_container">
+      <button class="btn"></button>
+      <h1>하루를 기록해보세요.</h1>
+    </div>
+    <div class="emotion_container">
+      <span class="emotion_title">오늘의 감정</span>
+      <ul>
+        <li>
+          <input type="radio" name="emotion" id="happy" checked>
+          <label for="happy">🥰</label>
+        </li>
+        <li>
+          <input type="radio" name="emotion" id="sad">
+          <label for="sad">🥺</label>
+        </li>
+        <li>
+          <input type="radio" name="emotion" id="boring">
+          <label for="boring">😑</label>
+        </li>
+        <li>
+          <input type="radio" name="emotion" id="sleepy">
+          <label for="sleepy">😴</label>
+        </li>
+        <li>
+          <input type="radio" name="emotion" id="angry">
+          <label for="angry">😡</label>
+        </li>
+        <li>
+          <input type="radio" name="emotion" id="tired">
+          <label for="tired">😓</label>
+        </li>
+      </ul>
+    </div>
+    <div class="input_container">
+      <div class="content">
+        <div class="row">
+          <span class="input_title">제목</span>
+          <input type="text" name="title" id="title">
+        </div>
+        <div class="row">
+          <span class="input_title">내용</span>
+          <textarea name="content" id="content"></textarea>
+        </div>
+        <div class="row">
+          <span class="input_title">한줄기록</span>
+          <input type="text" name="memo" id="memo">
+        </div>
+        <div class="row">
+          <button type="submit">저장</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
