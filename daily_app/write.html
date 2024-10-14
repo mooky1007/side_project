@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily App</title>
+  <link rel="stylesheet" href="./dist/app.css">
+  <script src="./dist/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="title_container">
+      <a class="btn" href="/daily_app"></a>
+      <h1>하루를 기록해보세요.</h1>
+    </div>
+    <div class="emotion_container">
+      <span class="emotion_title">오늘의 감정</span>
+      <ul>
+        <li>
+          <input type="radio" name="emotion" value="emotion01" id="emotion01" checked>
+          <label for="emotion01">
+            <img src="./assets/images/emotion01.png" alt="">
+          </label>
+        </li>
+        <li>
+          <input type="radio" name="emotion" value="emotion02" id="emotion02">
+          <label for="emotion02">
+            <img src="./assets/images/emotion02.png" alt="">
+          </label>
+        </li>
+        <li>
+          <input type="radio" name="emotion" value="emotion03" id="emotion03">
+          <label for="emotion03">
+            <img src="./assets/images/emotion03.png" alt="">
+          </label>
+        </li>
+        <li>
+          <input type="radio" name="emotion" value="emotion04" id="emotion04">
+          <label for="emotion04">
+            <img src="./assets/images/emotion04.png" alt="">
+          </label>
+        </li>
+        <li>
+          <input type="radio" name="emotion" value="emotion05" id="emotion05">
+          <label for="emotion05">
+            <img src="./assets/images/emotion05.png" alt="" style="position: relative; bottom: 5px;">
+          </label>
+        </li>
+        <li>
+          <input type="radio" name="emotion" value="emotion06" id="emotion06">
+          <label for="emotion06">
+            <img src="./assets/images/emotion06.png" alt="">
+          </label>
+        </li>
+      </ul>
+    </div>
+    <div class="input_container">
+      <div class="content">
+        <div class="row">
+          <span class="input_title">제목</span>
+          <input type="text" name="title" id="title">
+        </div>
+        <div class="row">
+          <span class="input_title">내용</span>
+          <textarea name="content" id="content"></textarea>
+        </div>
+        <div class="row">
+          <span class="input_title">한줄기록</span>
+          <input type="text" name="memo" id="memo">
+        </div>
+        <div class="row">
+          <button type="submit" id="saveDailyBtn">저장</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
