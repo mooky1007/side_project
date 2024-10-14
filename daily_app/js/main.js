@@ -9,7 +9,7 @@ const saveDaily = (data) => {
 };
 
 window.onload = () => {
-    if (window.location.pathname === '/daily_app/write.html') {
+    if (window.location.pathname.includes('/daily_app/write.html')) {
         document.querySelector('#saveDailyBtn').addEventListener('click', () => {
             saveDaily({
                 emotion: document.querySelector('[name="emotion"]:checked').value,
