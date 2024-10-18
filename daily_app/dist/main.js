@@ -52,7 +52,7 @@ window.onload = function () {
       content.append(contentP);
       memo.append(memoP);
       li.append(title, content, memo);
-      document.querySelector('.list_container ul').append(li);
+      document.querySelector('.record_container ul').append(li);
     });
   }
 };
